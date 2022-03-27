@@ -28,6 +28,13 @@ const MovieModal = ( { show = false, handleClose = null, section = OWN } ) => {
   
     const handleChange = ( e ) => {
       const { name, value, checked } = e.target;
+
+      if ( name === "name" ) {
+        if ( value.length > 40 ) {
+          return value.slice( 0,39 );
+        }
+      }
+
       setData( { ...data, [name]: name !== "name" ? checked:value } );
     };
   
