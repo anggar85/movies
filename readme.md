@@ -1,5 +1,9 @@
 # Movies App
 
+![Alt text](public/example.png?raw=true "Title")
+![Alt text](public/example2.png?raw=true "Title")
+![Alt text](public/example3.png?raw=true "Title")
+
 ## Installation
 
 Clone the repository in your machine.
