@@ -3,7 +3,6 @@ import { MovieStore } from "./MovieStore";
 
 export default function useLibrary() {
   const movies = MovieStore.useState( s => s.movies );
-  console.log( movies );
 
   useEffect( ()=>{
 
