@@ -68,6 +68,12 @@ const MovieBox = ( { data, updateData, section } ) => {
         return deleteMovie();
       }
     }
+    if ( m[type] ){
+      toast.success( `"${data.name}" movie was added to watched section` );  
+    }else{
+      toast.info( `"${data.name}" movie was removed from watched section` );  
+    }
+    
     updateData( m );
   };
 
