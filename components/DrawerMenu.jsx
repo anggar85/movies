@@ -86,14 +86,3 @@ const DrawerMenu = ( { show, toggleDrawer } ) => {
   };
 
   export default DrawerMenu;
-
-
-//   <Link href="/library" passHref>
-//             <Nav.Link className="text-white">Library</Nav.Link>
-//           </Link>
-//           <Link href="/watched-movies" passHref>
-//             <Nav.Link className="text-white">Watched Movies</Nav.Link>
-//           </Link>
-//           <Link href="/watchlist" passHref>
-//             <Nav.Link className="text-white">Watchlist</Nav.Link>
-//           </Link>
