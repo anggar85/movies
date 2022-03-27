@@ -7,6 +7,9 @@ import FloatingAddButton from "../../components/FloatingAddButton";
 import HeaderGeneric from "../../components/HeaderGeneric";
 import { OWN } from "../../utils/constants";
 
+/**
+ * This component will display the list of the movies that the user have in his library
+ */
 const Library = () => {
   const { movies, updateData } = useLibrary();
 

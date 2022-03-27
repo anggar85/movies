@@ -1,8 +1,6 @@
-import "react-phone-input-2/lib/material.css";
-import "animate.css";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/globals.css";
+import "react-toastify/dist/ReactToastify.css";
 
 import Layout from "../components/Layout";
 

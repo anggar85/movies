@@ -1,7 +1,9 @@
 import Head from "next/head";
 import { useEffect } from "react";
 import Library from "./library";
-
+/**
+ * Main file the return library component when url is '/'
+ */
 export default function Home() {
 
   useEffect( ()=>{

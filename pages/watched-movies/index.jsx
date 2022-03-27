@@ -6,6 +6,9 @@ import MovieBox from "../../components/MovieBox";
 import HeaderGeneric from "../../components/HeaderGeneric";
 import { WATCHED_MOVIES } from "../../utils/constants";
 
+/**
+ * This component will display the list of the movies that the user has marked as "watched"
+ */
 const WatchedMovies = () => {
   const { movies, updateData } = useLibrary();
 
